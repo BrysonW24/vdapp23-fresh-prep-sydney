@@ -1,269 +1,62 @@
-# Vivacity Next.js 15 Boilerplate
+# Fresh Prep Sydney
 
-**Production-ready Next.js 15 boilerplate with comprehensive developer tools and 10+ screens**
+Meal prep delivery platform for Sydney — built with Next.js 15, React 19, and Stripe.
 
-Built by [Vivacity Digital Apps](https://vivacitydigitalapps.com) for rapid client project development.
+## Overview
 
----
+Fresh Prep Sydney is a full-stack e-commerce app for ordering weekly meal prep deliveries. Includes a customer-facing shop, admin dashboard, blog CMS, and Stripe checkout.
 
-## 🎯 What's Included
+## Tech Stack
 
-### ✅ Core Technology Stack
-- **Next.js 15.1.0** - Latest App Router with Server Components
-- **React 19.0.0** - Latest React with improved performance
-- **TypeScript 5.7** - Full type safety with strict mode
-- **Tailwind CSS 3.4** - Utility-first styling with dark mode
-- **shadcn/ui** - Beautiful, accessible component library
-- **Lucide React** - 1000+ open source icons
-- **Zustand 5.0** - Lightweight state management
+- **Framework:** Next.js 15 (App Router)
+- **Language:** TypeScript 5.7
+- **Styling:** Tailwind CSS 3.4 + shadcn/ui
+- **State:** Zustand 5 + TanStack React Query
+- **Database:** Prisma ORM
+- **Payments:** Stripe
+- **Auth:** NextAuth.js v5
+- **Email:** Resend
+- **i18n:** next-intl (English + Korean)
+- **Monitoring:** Sentry
 
-### 🛠️ Developer Tools (3 Screens) ✨ NEW
-1. **Component Showcase** (`/dev/components`) - 5-tab visual component library
-2. **Dev Menu** (`/dev/dev-menu`) - Feature flags + environment switcher
-3. **Debug Console** (`/dev/debug`) - Logs, network, and storage monitoring
+## Features
 
-### 📱 System State Screens (4 Screens) ✨ NEW
-1. **Error Boundary** (`error.tsx`) - Global error handler
-2. **404 Not Found** (`not-found.tsx`) - Beautiful 404 page
-3. **Maintenance Mode** (`/maintenance`) - Scheduled maintenance page
-4. **Offline Mode** (`/offline`) - No connection page
+- Meal catalog with filtering, macros, and reviews
+- Shopping cart + Stripe checkout with payment intents
+- Subscription plans
+- Delivery zone validation
+- Macro calculator
+- Blog CMS (admin)
+- Order management (admin)
+- Mobile-ready with Capacitor
 
-### 🎨 UI Components ✨ NEW
-- Button (6 variants, 3 sizes, with icons)
-- Card (with header, footer, actions)
-- Tabs (responsive tab navigation)
-- Badge (4 variants with icons)
-- Switch (toggle component)
-- Toast (Sonner notifications)
-
----
-
-## Quick Start
-
-### Prerequisites
-
-- Node.js 18+
-- npm or yarn
-
-### Installation
+## Getting Started
 
 ```bash
 npm install
-# or
-yarn install
-```
-
-### Development
-
-```bash
 npm run dev
-# or
-yarn dev
 ```
 
-Visit [http://localhost:3000](http://localhost:3000) to see your application.
-
-### Build for Production
-
-```bash
-npm run build
-npm start
-```
+Visit http://localhost:3000
 
 ## Project Structure
 
 ```
 src/
-├── app/                    # Next.js app directory
-│   ├── api/               # API routes
-│   ├── layout.tsx         # Root layout
-│   └── page.tsx           # Home page
-├── components/            # React components
-├── hooks/                 # Custom React hooks
-├── lib/                   # Utilities and helpers
-│   ├── api-client.ts      # Axios API client
-│   └── validators.ts      # Zod validation schemas
-├── services/              # Business logic services
-├── types/                 # TypeScript type definitions
-├── utils/                 # Common utility functions
-└── styles/                # Global styles
+├── app/
+│   ├── (shop)/          # Customer-facing pages
+│   ├── (admin)/         # Admin dashboard
+│   ├── (auth)/          # Login, signup, forgot password
+│   └── api/             # API routes
+├── components/
+│   ├── shop/            # E-commerce components
+│   ├── layout/          # Header, footer, nav
+│   └── ui/              # Shared UI primitives
+├── hooks/               # Custom hooks
+├── lib/                 # API client, Stripe, Prisma, validators
+└── i18n/                # Translations
 ```
-
-## Key Technologies
-
-### Frontend Framework
-- **Next.js 14** - React framework with App Router
-- **React 18** - UI library
-- **TypeScript** - Type safety
-
-### Styling & UI
-- **Tailwind CSS** - Utility-first CSS
-- **Radix UI** - Headless UI components
-
-### State Management
-- **Zustand** - Lightweight state management
-- **React Query** - Server state management
-- **NextAuth.js** - Authentication
-
-### Forms & Validation
-- **React Hook Form** - Flexible form handling
-- **Zod** - TypeScript-first schema validation
-
-### HTTP Client
-- **Axios** - Promise-based HTTP client
-- Custom interceptors for auth and error handling
-
-### Development Tools
-- **ESLint** - Code linting
-- **Prettier** - Code formatting
-- **TypeScript** - Static type checking
-
-### Testing
-- **Playwright** - E2E testing
-
-## Configuration
-
-### Environment Variables
-
-Create `.env.local` based on `.env.example`:
-
-```bash
-NEXT_PUBLIC_API_BASE_URL=http://localhost:3000/api
-NEXTAUTH_SECRET=your-secret-key
-NEXTAUTH_URL=http://localhost:3000
-```
-
-### API Configuration
-
-Update `src/lib/api-client.ts` with your API base URL and authentication strategy.
-
-### Theme Configuration
-
-Customize colors and spacing in `tailwind.config.ts`.
-
-## Available Scripts
-
-```bash
-# Development
-npm run dev              # Start dev server
-
-# Building
-npm run build            # Build for production
-npm start                # Start production server
-
-# Code Quality
-npm run lint             # Run ESLint
-npm run type-check       # Type check with TypeScript
-npm run format           # Format code with Prettier
-npm run format:check     # Check formatting
-
-# Testing
-npm run test:e2e         # Run Playwright tests
-```
-
-## Authentication
-
-The boilerplate includes NextAuth.js configured with:
-
-- Credentials provider (email/password)
-- JWT session strategy
-- Protected routes
-- Session callbacks
-
-To implement your authentication:
-
-1. Update `src/app/api/auth/[...nextauth]/route.ts`
-2. Configure your credential provider
-3. Implement login/signup pages
-
-## API Integration
-
-The `apiClient` in `src/lib/api-client.ts` handles:
-
-- Request/response interceptors
-- Automatic token injection
-- Error standardization
-- Retry logic for failures
-
-### Usage
-
-```typescript
-import { apiClient } from '@/lib/api-client';
-
-// GET request
-const data = await apiClient.get('/users/me');
-
-// POST request
-const result = await apiClient.post('/posts', {
-  title: 'New Post',
-  content: 'Post content',
-});
-```
-
-## Form Validation
-
-Use Zod schemas with React Hook Form:
-
-```typescript
-import { useForm } from 'react-hook-form';
-import { zodResolver } from '@hookform/resolvers/zod';
-import { loginSchema, type LoginFormData } from '@/lib/validators';
-
-export function LoginForm() {
-  const { register, handleSubmit, formState: { errors } } = useForm<LoginFormData>({
-    resolver: zodResolver(loginSchema),
-  });
-
-  return (
-    <form onSubmit={handleSubmit(onSubmit)}>
-      <input {...register('email')} />
-      {errors.email && <span>{errors.email.message}</span>}
-    </form>
-  );
-}
-```
-
-## Hooks
-
-Custom hooks available in `src/hooks/`:
-
-- `useAsync` - Handle async operations
-- `useDebounce` - Debounce values
-- `usePrevious` - Track previous value
-- `useLocalStorage` - Persist state to localStorage
-- `useIsMounted` - Check if component is mounted
-
-## Utilities
-
-Common utilities in `src/utils/common.ts`:
-
-- Date formatting and manipulation
-- Number and currency formatting
-- String manipulation
-- Object cloning and merging
-- UUID generation
-
-## Contributing
-
-1. Create a feature branch
-2. Make your changes
-3. Format code: `npm run format`
-4. Run linter: `npm run lint`
-5. Type check: `npm run type-check`
-6. Submit a pull request
 
 ## License
 
-MIT
-
-## Support
-
-For questions or issues, please open an issue or contact support.
-
-## Documentation
-
-- [Next.js Docs](https://nextjs.org/docs)
-- [React Docs](https://react.dev)
-- [Tailwind CSS](https://tailwindcss.com)
-- [TypeScript](https://www.typescriptlang.org)
-- [NextAuth.js](https://next-auth.js.org)
+Private — Vivacity Digital
