@@ -1,0 +1,116 @@
+{
+  "nav": {
+    "shopMeals": "Shop Meals",
+    "howItWorks": "How It Works",
+    "blog": "Blog",
+    "deliveryAreas": "Delivery Areas",
+    "myAccount": "My Account",
+    "cart": "Shopping cart",
+    "account": "Account",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "followUs": "Follow us on social media"
+  },
+  "hero": {
+    "title1": "Fresh Meals,",
+    "title2": "Delivered to Your Door",
+    "subtitle": "Healthy, chef-prepared meals made with locally sourced ingredients and delivered fresh across Sydney every week.",
+    "shopMenu": "Shop This Week's Menu",
+    "howItWorks": "How It Works"
+  },
+  "chef": {
+    "label": "Meet Your Chef",
+    "name": "Aun",
+    "bio1": "With a passion for bold flavours and wholesome cooking, Aun brings her love of Thai and Asian-fusion cuisine to every Fresh Prep meal. From crispy chicken katsu to fragrant curries, each dish is crafted with care using fresh, local ingredients.",
+    "bio2": "Follow along on her cooking journey for behind-the-scenes content, recipes, and the stories behind each dish."
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "subtitle": "From our kitchen to your table in four simple steps.",
+    "step": "Step {number}",
+    "chooseMeals": "Choose Your Meals",
+    "chooseMealsDesc": "Browse our weekly rotating menu and pick your favourites.",
+    "aunCooks": "Aun Cooks Fresh",
+    "aunCooksDesc": "Every meal is prepared from scratch using local, quality ingredients.",
+    "weDeliver": "We Deliver",
+    "weDeliverDesc": "Meals arrive fresh at your door, ready to heat and enjoy.",
+    "heatEat": "Heat & Eat",
+    "heatEatDesc": "Simply reheat in minutes for a delicious, nutritious meal."
+  },
+  "menu": {
+    "title": "This Week's Menu",
+    "subtitle": "Freshly prepared meals rotating every week to keep your taste buds excited.",
+    "viewFullMenu": "View Full Menu",
+    "view": "View"
+  },
+  "categories": {
+    "title": "Shop by Category",
+    "subtitle": "Find meals that fit your lifestyle and goals.",
+    "classic": "Classic",
+    "highProtein": "High Protein",
+    "lowCarb": "Low Carb",
+    "plantBased": "Plant Based",
+    "breakfast": "Breakfast",
+    "bulk": "Bulk",
+    "snack": "Snack",
+    "all": "All"
+  },
+  "cta": {
+    "title": "Ready to eat well?",
+    "subtitle": "Skip the shopping, skip the cooking. Fresh, wholesome meals delivered right to your door.",
+    "shopNow": "Shop Now"
+  },
+  "meals": {
+    "title": "Our Meals",
+    "subtitle": "Chef-prepared, macro-balanced meals delivered fresh across Sydney.",
+    "addToCart": "Add to Cart"
+  },
+  "mealDetail": {
+    "nutrition": "Nutrition",
+    "ingredients": "Ingredients",
+    "allergens": "Allergens",
+    "reheating": "Reheating",
+    "nutritionInfo": "Nutrition Information",
+    "perServing": "Per serving ({size})",
+    "calories": "Calories",
+    "protein": "Protein",
+    "carbohydrates": "Carbohydrates",
+    "fat": "Fat",
+    "fibre": "Fibre",
+    "sugar": "Sugar",
+    "sodium": "Sodium",
+    "allergenInfo": "Allergen Information",
+    "allergenWarning": "Prepared in a kitchen that handles gluten, dairy, nuts, eggs, soy, and shellfish. Please contact us if you have specific allergy concerns.",
+    "reheatingInstructions": "Reheating Instructions",
+    "serving": "Serving",
+    "shelfLife": "Shelf life"
+  },
+  "blog": {
+    "title": "From the Kitchen",
+    "subtitle": "Recipes, nutrition tips, and stories from Aun.",
+    "minRead": "{minutes} min read",
+    "noPosts": "No posts in this category yet. Check back soon!"
+  },
+  "footer": {
+    "brandDescription": "Chef-prepared meals delivered fresh to your door across Sydney. Healthy eating, simplified.",
+    "shop": "Shop",
+    "allMeals": "All Meals",
+    "thisWeeksMenu": "This Week's Menu",
+    "company": "Company",
+    "aboutUs": "About Us",
+    "deliveryAreas": "Delivery Areas",
+    "faqs": "FAQs",
+    "stayUpdated": "Stay Updated",
+    "newsletterText": "Get weekly menus and exclusive offers straight to your inbox.",
+    "emailPlaceholder": "Your email",
+    "join": "Join",
+    "copyright": "© 2026 Fresh Prep Sydney. All rights reserved.",
+    "privacy": "Privacy",
+    "terms": "Terms"
+  },
+  "language": {
+    "label": "Language",
+    "en": "English",
+    "ko": "한국어"
+  }
+}

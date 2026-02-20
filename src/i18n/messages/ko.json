@@ -1,0 +1,116 @@
+{
+  "nav": {
+    "shopMeals": "식단 주문",
+    "howItWorks": "이용 방법",
+    "blog": "블로그",
+    "deliveryAreas": "배달 지역",
+    "myAccount": "내 계정",
+    "cart": "장바구니",
+    "account": "계정",
+    "openMenu": "메뉴 열기",
+    "closeMenu": "메뉴 닫기",
+    "followUs": "소셜 미디어에서 팔로우하세요"
+  },
+  "hero": {
+    "title1": "신선한 식단,",
+    "title2": "당신의 문 앞으로 배달",
+    "subtitle": "현지에서 조달한 신선한 재료로 셰프가 직접 조리한 건강한 식단을 매주 시드니 전역으로 배달합니다.",
+    "shopMenu": "이번 주 메뉴 보기",
+    "howItWorks": "이용 방법"
+  },
+  "chef": {
+    "label": "셰프를 소개합니다",
+    "name": "Aun",
+    "bio1": "대담한 맛과 건강한 요리에 대한 열정으로, Aun은 태국 및 아시안 퓨전 요리에 대한 사랑을 Fresh Prep의 모든 식단에 담아냅니다. 바삭한 치킨 카츠부터 향긋한 커리까지, 모든 요리는 신선한 현지 재료를 사용하여 정성스럽게 만들어집니다.",
+    "bio2": "비하인드 스토리 콘텐츠, 레시피, 그리고 각 요리에 담긴 이야기를 함께 즐겨보세요."
+  },
+  "howItWorks": {
+    "title": "이용 방법",
+    "subtitle": "우리 주방에서 식탁까지, 간단한 4단계.",
+    "step": "{number}단계",
+    "chooseMeals": "식단 선택",
+    "chooseMealsDesc": "매주 바뀌는 메뉴에서 원하는 식단을 골라보세요.",
+    "aunCooks": "Aun이 직접 요리",
+    "aunCooksDesc": "모든 식단은 신선한 현지 재료로 처음부터 직접 조리됩니다.",
+    "weDeliver": "배달해드립니다",
+    "weDeliverDesc": "식단이 신선하게 문 앞까지 도착합니다.",
+    "heatEat": "데워서 드세요",
+    "heatEatDesc": "몇 분만에 맛있고 영양가 있는 식사를 즐기세요."
+  },
+  "menu": {
+    "title": "이번 주 메뉴",
+    "subtitle": "매주 새롭게 바뀌는 신선한 식단으로 미각을 즐겁게 해드립니다.",
+    "viewFullMenu": "전체 메뉴 보기",
+    "view": "보기"
+  },
+  "categories": {
+    "title": "카테고리별 쇼핑",
+    "subtitle": "라이프스타일과 목표에 맞는 식단을 찾아보세요.",
+    "classic": "클래식",
+    "highProtein": "고단백",
+    "lowCarb": "저탄수화물",
+    "plantBased": "식물성",
+    "breakfast": "아침식사",
+    "bulk": "대용량",
+    "snack": "간식",
+    "all": "전체"
+  },
+  "cta": {
+    "title": "건강하게 먹을 준비 되셨나요?",
+    "subtitle": "장보기도, 요리도 필요 없습니다. 신선하고 건강한 식단을 문 앞으로 배달해 드립니다.",
+    "shopNow": "지금 주문하기"
+  },
+  "meals": {
+    "title": "식단 메뉴",
+    "subtitle": "셰프가 조리한 영양 균형 잡힌 식단을 시드니 전역으로 신선하게 배달합니다.",
+    "addToCart": "장바구니에 담기"
+  },
+  "mealDetail": {
+    "nutrition": "영양정보",
+    "ingredients": "재료",
+    "allergens": "알레르기",
+    "reheating": "데우는 방법",
+    "nutritionInfo": "영양 성분표",
+    "perServing": "1회 제공량 ({size})",
+    "calories": "칼로리",
+    "protein": "단백질",
+    "carbohydrates": "탄수화물",
+    "fat": "지방",
+    "fibre": "식이섬유",
+    "sugar": "당류",
+    "sodium": "나트륨",
+    "allergenInfo": "알레르기 정보",
+    "allergenWarning": "글루텐, 유제품, 견과류, 달걀, 대두, 갑각류를 다루는 주방에서 조리됩니다. 특정 알레르기가 있으시면 문의해 주세요.",
+    "reheatingInstructions": "데우는 방법",
+    "serving": "제공량",
+    "shelfLife": "유통기한"
+  },
+  "blog": {
+    "title": "주방에서 전하는 이야기",
+    "subtitle": "Aun의 레시피, 영양 팁, 그리고 이야기.",
+    "minRead": "{minutes}분 읽기",
+    "noPosts": "이 카테고리에는 아직 게시물이 없습니다. 곧 업데이트됩니다!"
+  },
+  "footer": {
+    "brandDescription": "셰프가 조리한 신선한 식단을 시드니 전역 문 앞으로 배달합니다. 건강한 식사를 간편하게.",
+    "shop": "쇼핑",
+    "allMeals": "전체 메뉴",
+    "thisWeeksMenu": "이번 주 메뉴",
+    "company": "회사 소개",
+    "aboutUs": "소개",
+    "deliveryAreas": "배달 지역",
+    "faqs": "자주 묻는 질문",
+    "stayUpdated": "소식 받기",
+    "newsletterText": "매주 메뉴와 특별 할인 정보를 이메일로 받아보세요.",
+    "emailPlaceholder": "이메일 주소",
+    "join": "구독",
+    "copyright": "© 2026 Fresh Prep Sydney. 모든 권리 보유.",
+    "privacy": "개인정보처리방침",
+    "terms": "이용약관"
+  },
+  "language": {
+    "label": "언어",
+    "en": "English",
+    "ko": "한국어"
+  }
+}
